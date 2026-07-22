@@ -1,4 +1,5 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Link, Typography } from "@mui/material";
+import { Link as RouterLink } from "react-router-dom";
 
 const BrandSection = () => {
 
@@ -11,16 +12,16 @@ const BrandSection = () => {
                 <Typography
                 
                     variant="h6"
+                    component={RouterLink}
+                    to="/"
                     sx={(theme) => ({
 
-                        color: theme.palette.text.primary
+                        color: theme.palette.text.primary,
+                        textDecoration: "none"
 
                     })}
-
                 >
-
-                    Aureon
-
+                        Aureon
                 </Typography>
 
 

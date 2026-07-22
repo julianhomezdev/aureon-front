@@ -28,7 +28,7 @@ const Navbar = () => {
             
             <Box    
 
-                sx={(theme) => ({
+                sx={{
 
                     display: "flex",
                     width: "60%",
@@ -38,12 +38,7 @@ const Navbar = () => {
                     alignItems: "center",
                     px: 5,
                     border: softBorder(0.1)
-
-
-                })}
-            
-            
-
+                }}
             >
 
                 <BrandSection />
