@@ -1,9 +1,17 @@
 const LandingPage = () => {
 
-    return(<>HOLA</>)
+    return(
+
+        <>
+        
+            
+        
+        </>
+
+    )
 
 
 };
 
 
-export default LandingPage;
+export default LandingPage; 
