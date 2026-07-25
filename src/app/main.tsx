@@ -4,12 +4,25 @@ import { createRoot } from 'react-dom/client'
 import '@fontsource/liter';
 import '@fontsource-variable/geist-mono/wght.css';
 
-import './index.css'
+import '../index.css'
 import App from './App.tsx'
+import { ThemeProvider } from '@mui/material/styles';
+import { theme } from '@/context/theme/index.ts';
+import { BrowserRouter } from 'react-router-dom';
+import { CssBaseline } from '@mui/material';
 
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+
+  <CssBaseline>
+    <StrictMode>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ThemeProvider>
+  </StrictMode>
+  </CssBaseline>
+
+  
+);

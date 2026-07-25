@@ -1,4 +1,5 @@
 export const typographyTokens = {
+
   fontFamily: {
     sans: '"Liter", sans-serif',
     mono: '"Geist Mono", monospace',
@@ -52,6 +53,7 @@ export const typographyTokens = {
       weight: 600,
       lineHeight: 1.1,
       tracking: "-0.02em",
+      
     },
 
     h2: {
