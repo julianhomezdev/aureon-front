@@ -8,7 +8,7 @@ export const paletteTokens = {
   popover: "#12161E",
   popoverForeground: "#F3F5F8",
 
-  primary: "#427FF7",
+  primary: "#0077b6",
   primaryForeground: "#06090F",
 
   secondary: "#1F242E",
